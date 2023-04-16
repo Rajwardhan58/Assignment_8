@@ -1,0 +1,17 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'Assignment_8';
+
+  public strLength = 0;
+
+  public showLength(data : string)
+  {
+      this.strLength=data.length;
+  }
+}
